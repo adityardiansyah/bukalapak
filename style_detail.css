@@ -1,0 +1,86 @@
+.c-star{
+    color: #FFC53E;
+}
+
+.f-11{
+    font-size: 11pt;
+}
+
+.f-12{
+    font-size: 12pt;
+}
+
+.f-10{
+    font-size: 10pt;
+}
+
+.f-8{
+    font-size: 8pt;
+}
+
+.f-7{
+    font-size: 7pt;
+}
+
+.link{
+    color: #666;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #C81423;
+    text-decoration: none;
+}
+
+.card-grey{
+    background-color: #F8F8F8;
+    border-radius:4px;
+}
+.card-grey small{
+    color: #666;
+}
+
+.card-grey span{
+    font-size: 10pt;
+}
+
+.el-preview-desc small{
+    color: #666;
+}
+
+.c-secondary{
+    color: #666;
+}
+
+.el-preview-desc span{
+    font-size: 10pt;
+}
+
+.el-rp, .el-price{
+    color: #F2270C;
+    font-weight: bold;
+}
+
+.el-price{
+    font-size: 20pt!important;
+    line-height: 30px;
+}
+
+.el-coret{
+    color:#666;
+    text-decoration: line-through!important;
+    font-size: 12pt!important;
+}
+
+.badge-custom{
+    background-color: rgb(254,240,238);
+    border:1px solid #F2270C;
+    color: #F2270C;
+    padding: 2px 6px;
+    border-radius: 2px;
+}
+
+.border-dash{
+    border:0.2px dashed #d1d1d1;
+    width: 100%;
+}
