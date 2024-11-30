@@ -292,32 +292,38 @@
             <div class="col-md-9">
                 <div class="card">
                     <div class="card-body border-bottom">
-                        <div class="d-flex">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><i
-                                            class="fa fa-search f-10"></i></span>
+                        <div class="row no-gutters">
+                            <div class="col-md-9">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                class="fa fa-search f-10"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control f-10 input-search" placeholder="Cari di Joyseus">
                                 </div>
-                                <input type="text" class="form-control f-10 input-search" placeholder="Cari di Joyseus">
                             </div>
-                            <div class="ml-3">
-                                <div class="dropdown">
-                                    <a href="javascript:;" class="d-flex p-2 link f-10 dropdown-toggle" id="dropdownMenuButton"
-                                        data-toggle="dropdown"><i
-                                            class="fa fa-filter mr-1"></i> Terlaris</a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item f-10    " href="#">Terlaris</a>
-                                        <a class="dropdown-item f-10    " href="#">Terbaru</a>
-                                        <a class="dropdown-item f-10    " href="#">Termurah</a>
-                                        <a class="dropdown-item f-10    " href="#">Termahal</a>
-                                        <a class="dropdown-item f-10    " href="#">Diskom Terbesar</a>
-                                        <a class="dropdown-item f-10    " href="#">Rating Tertinggi</a>
+                            <div class="col-md-3">
+                                <div class="d-flex">
+                                    <div class="ml-3">
+                                        <div class="dropdown">
+                                            <a href="javascript:;" class="d-flex p-2 link f-10 dropdown-toggle" id="dropdownMenuButton"
+                                                data-toggle="dropdown"><i
+                                                    class="fa fa-filter mr-1"></i> Terlaris</a>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item f-10    " href="#">Terlaris</a>
+                                                <a class="dropdown-item f-10    " href="#">Terbaru</a>
+                                                <a class="dropdown-item f-10    " href="#">Termurah</a>
+                                                <a class="dropdown-item f-10    " href="#">Termahal</a>
+                                                <a class="dropdown-item f-10    " href="#">Diskom Terbesar</a>
+                                                <a class="dropdown-item f-10    " href="#">Rating Tertinggi</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ml-4 mr-3">
+                                        <a href="javascript:;" data-toggle="modal" data-target="#filterModal"
+                                            class="d-flex p-2 link f-10"><i class="fa fa-filter mr-1"></i> Filter</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="ml-4 mr-3">
-                                <a href="javascript:;" data-toggle="modal" data-target="#filterModal"
-                                    class="d-flex p-2 link f-10"><i class="fa fa-filter mr-1"></i> Filter</a>
                             </div>
                             <div class="modal fade" id="filterModal" tabindex="-1" role="dialog"
                                 aria-labelledby="filterModalLabel" aria-hidden="true">

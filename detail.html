@@ -8,9 +8,11 @@
     <title>Profil Toko</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/plugin/owl.carousel/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="/plugin/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="/plugin/slick-1.8.1/slick/slick-theme.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style_detail.css">
 </head>
 
@@ -18,7 +20,24 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-5">
-
+                <div class="preview sticky-detail">
+                    <div class="preview-pic tab-content">
+                        <div class="tab-pane active" id="pic-1" data-scale="1.6"><img class="item-photo"
+                                src="/images/1.webp" /></div>
+                        <div class="tab-pane" id="pic-2" data-scale="1.6"><img class="item-photo"
+                                src="/images/2.webp" /></div>
+                        <div class="tab-pane" id="pic-3" data-scale="1.6"><img class="item-photo"
+                                src="/images/3.webp" /></div>
+                    </div>
+                    <ul class="preview-thumbnail nav nav-tabs">
+                        <li class="active"><a class="active" data-target="#pic-1" data-mdb-toggle="tab" href="#pic-1"
+                                role="tab"><img src="/images/1.webp" /></a></li>
+                        <li><a data-target="#pic-2" data-toggle="tab" data-mdb-toggle="tab" href="#pic-2"
+                                role="tab"><img src="/images/2.webp" /></a></li>
+                        <li><a data-target="#pic-3" data-toggle="tab" data-mdb-toggle="tab" href="#pic-3"
+                                role="tab"><img src="/images/3.webp" /></a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-7">
                 <div class="el-detail">
@@ -58,7 +77,7 @@
                                     <span>Rp 79,300/pcs untuk min. pembelian 1 pcs. Harga normal berlaku jika pembelian kurang dari jumlah yang ditentukan</span>
                                 </div>
                                 <div>
-                                    <span class="badge-custom">Potensial mendapatkan 40 poin</span>
+                                    <span class="badge-custom">JD Poin</span> <span>Potensial mendapatkan 40 poin</span>
                                 </div>
                             </div>
                         </div>
@@ -77,6 +96,117 @@
                         </div>
                         <div class="row mt-2">
                             <div class="col-3">
+                                <small>Dikirim ke</small>
+                            </div>
+                            <div class="col-9">
+                                <select class="js-example-basic-single w-100" name="state">
+                                    <option value="11">
+                                        ACEH
+                                    </option>
+                                    <option value="12">
+                                        SUMATERA UTARA
+                                    </option>
+                                    <option value="13">
+                                        SUMATERA BARAT
+                                    </option>
+                                    <option value="14">
+                                        R I A U
+                                    </option>
+                                    <option value="15">
+                                        J A M B I
+                                    </option>
+                                    <option value="16">
+                                        SUMATERA SELATAN
+                                    </option>
+                                    <option value="17">
+                                        BENGKULU
+                                    </option>
+                                    <option value="18">
+                                        LAMPUNG
+                                    </option>
+                                    <option value="19">
+                                        KEPULAUAN BANGKA BELITUNG
+                                    </option>
+                                    <option value="21">
+                                        KEPULAUAN RIAU
+                                    </option>
+                                    <option value="31">
+                                        DKI JAKARTA
+                                    </option>
+                                    <option value="32">
+                                        JAWA BARAT
+                                    </option>
+                                    <option value="33">
+                                        JAWA TENGAH
+                                    </option>
+                                    <option value="34">
+                                        DI YOGYAKARTA
+                                    </option>
+                                    <option value="35">
+                                        JAWA TIMUR
+                                    </option>
+                                    <option value="36">
+                                        B A N T E N
+                                    </option>
+                                    <option value="51">
+                                        BALI
+                                    </option>
+                                    <option value="52">
+                                        NUSA TENGGARA BARAT
+                                    </option>
+                                    <option value="53">
+                                        NUSA TENGGARA TIMUR
+                                    </option>
+                                    <option value="61">
+                                        KALIMANTAN BARAT
+                                    </option>
+                                    <option value="62">
+                                        KALIMANTAN TENGAH
+                                    </option>
+                                    <option value="63">
+                                        KALIMANTAN SELATAN
+                                    </option>
+                                    <option value="64">
+                                        KALIMANTAN TIMUR
+                                    </option>
+                                    <option value="71">
+                                        SULAWESI UTARA
+                                    </option>
+                                    <option value="73">
+                                        SULAWESI SELATAN
+                                    </option>
+                                    <option value="74">
+                                        SULAWESI TENGGARA
+                                    </option>
+                                    <option value="75">
+                                        GORONTALO
+                                    </option>
+                                    <option value="76">
+                                        SULAWESI BARAT
+                                    </option>
+                                    <option value="81">
+                                        MALUKU
+                                    </option>
+                                    <option value="82">
+                                        MALUKU UTARA
+                                    </option>
+                                    <option value="94">
+                                        PAPUA
+                                    </option>
+                                    <option value="91">
+                                        PAPUA BARAT
+                                    </option>
+                                    <option value="72">
+                                        SULAWESI TENGAH
+                                    </option>
+                                    <option value="65">
+                                        KALIMANTAN UTARA
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-3">
                                 <small>Pengiriman</small>
                             </div>
                             <div class="col-9">
@@ -88,20 +218,38 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-dash mt-2 mb-2"></div>
-                        <div class="d-flex">
-                            <div class="counting">
-    
-                            </div>
-                            <button class="btn btn-custom">Masukkan Ke Trolli</button>
+                        <div class="border-dash mt-3 mb-3"></div>
+                        <div class="mt-3">
+                            <form action="" class="d-flex">
+                                <div class="counting d-flex">
+                                    <button type="button" class="btn-counter min">-</button>
+                                    <input type="text" value="1" class="counter">
+                                    <button type="button" class="btn-counter plus">+</button>
+                                </div>
+                                <button class="btn-custom btn ml-4">Masukkan Ke Trolli</button>
+                            </form>
                         </div>
-                        <div class="row mt-2">
+                        <div class="row mt-3">
                             <div class="col-3">
                                 <small>Pembayaran</small>
                             </div>
                             <div class="col-9">
                                 <div class="d-flex">
-                                    <span class="badge-secondary"></span>
+                                    <span class="badge-custom-second">
+                                        <i class="fab fa-cc-visa"></i>
+                                    </span>
+                                    <span class="badge-custom-second ml-2">
+                                        <i class="fab fa-cc-mastercard"></i>
+                                    </span>
+                                    <span class="badge-custom-second ml-2">
+                                        <i class="fab fa-cc-paypal"></i>
+                                    </span>
+                                    <span class="badge-custom-second ml-2">
+                                        <i class="fab fa-cc-amazon-pay"></i>
+                                    </span>
+                                    <span class="badge-custom-second ml-2">
+                                        <i class="fab fa-cc-visa"></i>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -111,10 +259,10 @@
                             </div>
                             <div class="col-9">
                                 <div class="f-10 c-secondary">
-                                    Tidak mendukung 7 Hari pengembalian dana
+                                    <i class="fa fa-check-circle"></i> Tidak mendukung 7 Hari pengembalian dana
                                 </div>
                                 <div class="f-10 c-secondary">
-                                    Tidak mendukung 15 Hari penukaran barang
+                                    <i class="fa fa-check-circle"></i> Tidak mendukung 15 Hari penukaran barang
                                 </div>
                             </div>
                         </div>
@@ -131,11 +279,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
     </script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 
     <script>
-        $(document).ready(function () {
-
+        $(document).ready(function() {
+            $('.js-example-basic-single').select2();
         });
     </script>
 </body>

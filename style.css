@@ -285,3 +285,24 @@ input[type=radio]:after {
     color: #fff;
     font-weight: bold;
 }
+
+@media (max-width:425px) {
+    .col-sm-6{
+        -webkit-box-flex:0;
+        -ms-flex:0 0 50%;
+        flex:0 0 50%;
+        max-width:50%;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .c-btn{
+        -webkit-line-clamp: 1;
+        display: block;
+        display: -webkit-box;
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+}
